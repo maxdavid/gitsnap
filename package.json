@@ -1,0 +1,31 @@
+{
+  "name": "gitsnap",
+  "version": "1.0.0",
+  "description": "Snap a selfie on every commit",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install.js",
+    "bin": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gitsnap": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxdavid/gitsnap.git"
+  },
+  "keywords": [
+    "humor",
+    "git",
+    "selfie",
+    "🤳"
+  ],
+  "author": "Max David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxdavid/gitsnap/issues"
+  },
+  "homepage": "https://github.com/maxdavid/gitsnap#readme",
+  "dependencies": {}
+}
