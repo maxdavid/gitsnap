@@ -1,11 +1,13 @@
 # gitsnap
 
+[![npm](https://img.shields.io/npm/v/gitsnap.svg)](https://www.npmjs.com/package/gitsnap)
+
 Snap a selfie on every commit
 
 ## Install
 
 ```
-$ npm install gitsnap
+$ npm install --save-dev gitsnap
 ```
 
 ## Usage
