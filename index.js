@@ -33,4 +33,9 @@ const snapsDir = function() {
 //
 const file = buildSnapFilename();
 const dir = snapsDir();
-asyncRunner(__dirname + '/bin/imagesnap', ['-q', path.resolve(dir, file)]);
+asyncRunner(__dirname + '/bin/imagesnap', [
+  '-q',
+  '-',
+  '>',
+  path.resolve(dir, file)
+]);

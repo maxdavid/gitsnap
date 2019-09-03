@@ -13,7 +13,7 @@ var fs = require('fs'),
 //
 // Snippet that gets added to git's post-commit hook.
 //
-const snippet = `npx gitsnap\n`;
+const snippet = `npx gitsnap &\n`;
 
 //
 // Gather the location of the possible hidden .git directory, the hooks
