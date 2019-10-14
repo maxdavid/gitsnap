@@ -1,5 +1,3 @@
-![gitsnap logo](assets/gitsnap-wide-logo.png)
-
 # gitsnap
 
 [![npm](https://img.shields.io/npm/v/gitsnap.svg)](https://www.npmjs.com/package/gitsnap)
